@@ -1,0 +1,254 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "stationId",
+    "type": "string",
+    "description": "iHeart station ID (numeric string)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Station display name",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "description": "Station tagline or description",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "callLetters",
+    "type": "string",
+    "description": "FCC call letters with band suffix",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "band",
+    "type": "string",
+    "description": "Broadcast band (FM, AM, FL for digital, HD2/HD3/HD4 for HD radio)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "frequency",
+    "type": "string",
+    "description": "Broadcast frequency. Null for digital-only stations",
+    "fillRate": 70,
+    "premium": false
+  },
+  {
+    "name": "format",
+    "type": "string",
+    "description": "Station format",
+    "fillRate": 78,
+    "premium": false
+  },
+  {
+    "name": "provider",
+    "type": "string",
+    "description": "Station owner or network",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "cume",
+    "type": "float",
+    "description": "Cumulative weekly audience estimate",
+    "fillRate": 64,
+    "premium": true
+  },
+  {
+    "name": "country",
+    "type": "string",
+    "description": "Country code",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "marketId",
+    "type": "string",
+    "description": "Primary market ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "marketName",
+    "type": "string",
+    "description": "Primary market name",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "marketCity",
+    "type": "string",
+    "description": "Primary market city",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "marketState",
+    "type": "string",
+    "description": "State abbreviation",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "primaryGenreId",
+    "type": "float",
+    "description": "Primary genre ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "primaryGenreName",
+    "type": "string",
+    "description": "Primary genre name",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "genres",
+    "type": "array",
+    "description": "All genres with id, name, and primary flag",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "logoUrl",
+    "type": "string",
+    "description": "Station logo URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "website",
+    "type": "string",
+    "description": "Station website URL",
+    "fillRate": 62,
+    "premium": false
+  },
+  {
+    "name": "link",
+    "type": "string",
+    "description": "iHeart direct play link",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "fccFacilityId",
+    "type": "string",
+    "description": "FCC facility ID for licensed broadcast stations",
+    "fillRate": 26,
+    "premium": false
+  },
+  {
+    "name": "rds",
+    "type": "string",
+    "description": "RDS (Radio Data System) hex code for FM broadcast",
+    "fillRate": 16,
+    "premium": false
+  },
+  {
+    "name": "streamingPlatform",
+    "type": "string",
+    "description": "Streaming platform (revma, triton)",
+    "fillRate": 61,
+    "premium": false
+  },
+  {
+    "name": "hlsStreamUrl",
+    "type": "string",
+    "description": "Secure HLS stream URL",
+    "fillRate": 42,
+    "premium": true
+  },
+  {
+    "name": "shoutcastStreamUrl",
+    "type": "string",
+    "description": "Secure Shoutcast/AAC stream URL",
+    "fillRate": 78,
+    "premium": true
+  },
+  {
+    "name": "plsStreamUrl",
+    "type": "string",
+    "description": "PLS playlist stream URL",
+    "fillRate": 22,
+    "premium": true
+  },
+  {
+    "name": "talkbackEnabled",
+    "type": "bool",
+    "description": "Station supports talkback/listener interaction",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "socialFacebook",
+    "type": "string",
+    "description": "Facebook page handle",
+    "fillRate": 46,
+    "premium": false
+  },
+  {
+    "name": "socialTwitter",
+    "type": "string",
+    "description": "Twitter/X handle",
+    "fillRate": 41,
+    "premium": false
+  },
+  {
+    "name": "socialInstagram",
+    "type": "string",
+    "description": "Instagram handle",
+    "fillRate": 19,
+    "premium": false
+  },
+  {
+    "name": "socialTiktok",
+    "type": "string",
+    "description": "TikTok handle",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "primaryPronouncement",
+    "type": "string",
+    "description": "Voice assistant pronunciation text for station name",
+    "fillRate": 32,
+    "premium": false
+  },
+  {
+    "name": "modifiedAt",
+    "type": "datetime",
+    "description": "Last modification timestamp from iHeart",
+    "fillRate": 100,
+    "premium": false
+  }
+]

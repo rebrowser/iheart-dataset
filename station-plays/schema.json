@@ -1,0 +1,107 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "playedAt",
+    "type": "datetime",
+    "description": "Start time of track playback (UTC)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "stationId",
+    "type": "string",
+    "description": "iHeart station ID (numeric string)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "title",
+    "type": "string",
+    "description": "Track/song title",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "artist",
+    "type": "string",
+    "description": "Artist name(s), may include featured artists",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "album",
+    "type": "string",
+    "description": "Album title",
+    "fillRate": 17,
+    "premium": false
+  },
+  {
+    "name": "durationSeconds",
+    "type": "float",
+    "description": "Track duration in seconds",
+    "fillRate": 17,
+    "premium": false
+  },
+  {
+    "name": "trackId",
+    "type": "float",
+    "description": "iHeart track ID",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "artistId",
+    "type": "float",
+    "description": "iHeart artist ID",
+    "fillRate": 17,
+    "premium": false
+  },
+  {
+    "name": "albumId",
+    "type": "float",
+    "description": "iHeart album ID",
+    "fillRate": 17,
+    "premium": false
+  },
+  {
+    "name": "stationName",
+    "type": "string",
+    "description": "Station name (from stations table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "stationFormat",
+    "type": "string",
+    "description": "Station format (from stations table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "stationState",
+    "type": "string",
+    "description": "Station state (from stations table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "stationPrimaryGenreName",
+    "type": "string",
+    "description": "Station primary genre (from stations table)",
+    "fillRate": null,
+    "premium": false
+  }
+]
