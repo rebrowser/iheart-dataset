@@ -35,7 +35,7 @@
           rx="1" fill="#22c55eb3" />
   <rect x="299" y="191" width="28" height="49"
           rx="1" fill="#22c55eb3" />
-  <rect x="329" y="195" width="28" height="45"
+  <rect x="329" y="194" width="28" height="46"
           rx="1" fill="#22c55eb3" />
   <rect x="359" y="197" width="28" height="43"
           rx="1" fill="#22c55eb3" />
@@ -49,7 +49,7 @@
           rx="1" fill="#22c55eb3" />
   <rect x="509" y="183" width="28" height="57"
           rx="1" fill="#22c55eb3" />
-  <rect x="539" y="84" width="28" height="156"
+  <rect x="539" y="83" width="28" height="157"
           rx="1" fill="#22c55eb3" />
   <rect x="569" y="93" width="28" height="147"
           rx="1" fill="#22c55eb3" />
@@ -67,14 +67,14 @@
           rx="1" fill="#22c55eb3" />
   <rect x="779" y="73" width="28" height="167"
           rx="1" fill="#22c55eb3" />
-  <rect x="809" y="218" width="28" height="22"
+  <rect x="809" y="171" width="28" height="69"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="73,240 103,235 133,231 163,227 193,222 223,218 253,214 283,210 313,205 343,201 373,198 403,193 433,189 463,185 493,180 523,176 553,162 583,149 613,135 643,122 673,108 703,94 733,80 763,66 793,52 823,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="73,240 103,236 133,231 163,227 193,223 223,218 253,214 283,210 313,206 343,202 373,199 403,194 433,190 463,186 493,182 523,177 553,164 583,151 613,138 643,124 673,110 703,97 733,83 763,70 793,56 823,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >192M</text>
+           >194M</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >164M</text>
