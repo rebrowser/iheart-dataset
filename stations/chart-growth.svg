@@ -29,7 +29,7 @@
   
   
   <!-- line (Total, left axis) -->
-  <polyline points="98,240 177,233 256,198 335,170 414,99 493,92 572,78 651,64 730,57 809,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="98,240 177,233 256,199 335,172 414,104 493,97 572,84 651,70 730,64 809,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
