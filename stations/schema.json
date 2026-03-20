@@ -227,7 +227,7 @@
     "name": "socialInstagram",
     "type": "string",
     "description": "Instagram handle",
-    "fillRate": 18,
+    "fillRate": 19,
     "premium": false
   },
   {
