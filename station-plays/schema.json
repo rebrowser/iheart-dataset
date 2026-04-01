@@ -45,14 +45,14 @@
     "name": "album",
     "type": "string",
     "description": "Album title",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
     "name": "durationSeconds",
     "type": "float",
     "description": "Track duration in seconds",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
@@ -66,14 +66,14 @@
     "name": "artistId",
     "type": "float",
     "description": "iHeart artist ID",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
     "name": "albumId",
     "type": "float",
     "description": "iHeart album ID",
-    "fillRate": 26,
+    "fillRate": 27,
     "premium": false
   },
   {
