@@ -80,7 +80,7 @@
     "name": "cume",
     "type": "float",
     "description": "Cumulative weekly audience estimate",
-    "fillRate": 64,
+    "fillRate": 63,
     "premium": true
   },
   {
@@ -150,7 +150,7 @@
     "name": "website",
     "type": "string",
     "description": "Station website URL",
-    "fillRate": 62,
+    "fillRate": 63,
     "premium": false
   },
   {
@@ -213,7 +213,7 @@
     "name": "socialFacebook",
     "type": "string",
     "description": "Facebook page handle",
-    "fillRate": 46,
+    "fillRate": 47,
     "premium": false
   },
   {
