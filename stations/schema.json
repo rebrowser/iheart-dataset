@@ -66,7 +66,7 @@
     "name": "format",
     "type": "string",
     "description": "Station format",
-    "fillRate": 78,
+    "fillRate": 72,
     "premium": false
   },
   {
@@ -80,7 +80,7 @@
     "name": "cume",
     "type": "float",
     "description": "Cumulative weekly audience estimate",
-    "fillRate": 63,
+    "fillRate": 64,
     "premium": true
   },
   {
@@ -185,14 +185,14 @@
     "name": "hlsStreamUrl",
     "type": "string",
     "description": "Secure HLS stream URL",
-    "fillRate": 42,
+    "fillRate": 52,
     "premium": true
   },
   {
     "name": "shoutcastStreamUrl",
     "type": "string",
     "description": "Secure Shoutcast/AAC stream URL",
-    "fillRate": 78,
+    "fillRate": 87,
     "premium": true
   },
   {
