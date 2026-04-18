@@ -36,11 +36,11 @@
           rx="1" fill="#22c55eb3" />
   
   <!-- line (Total, left axis) -->
-  <polyline points="84,240 136,237 188,220 240,207 292,173 344,170 396,163 448,157 500,153 552,147 604,140 656,100 708,97 760,57 812,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="84,240 136,237 188,221 240,208 292,176 344,172 396,166 448,159 500,156 552,150 604,143 656,105 708,102 760,63 812,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >3.70k</text>
+           >3.71k</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >3.68k</text>
