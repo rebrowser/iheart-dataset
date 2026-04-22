@@ -59,7 +59,7 @@
     "name": "frequency",
     "type": "string",
     "description": "Broadcast frequency. Null for digital-only stations",
-    "fillRate": 70,
+    "fillRate": 72,
     "premium": false
   },
   {
