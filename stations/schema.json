@@ -220,14 +220,14 @@
     "name": "socialTwitter",
     "type": "string",
     "description": "Twitter/X handle",
-    "fillRate": 41,
+    "fillRate": 40,
     "premium": false
   },
   {
     "name": "socialInstagram",
     "type": "string",
     "description": "Instagram handle",
-    "fillRate": 20,
+    "fillRate": 19,
     "premium": false
   },
   {
