@@ -80,7 +80,7 @@
     "name": "cume",
     "type": "float",
     "description": "Cumulative weekly audience estimate",
-    "fillRate": 64,
+    "fillRate": 63,
     "premium": true
   },
   {
@@ -178,7 +178,7 @@
     "name": "streamingPlatform",
     "type": "string",
     "description": "Streaming platform (revma, triton)",
-    "fillRate": 61,
+    "fillRate": 60,
     "premium": false
   },
   {
@@ -227,7 +227,7 @@
     "name": "socialInstagram",
     "type": "string",
     "description": "Instagram handle",
-    "fillRate": 19,
+    "fillRate": 20,
     "premium": false
   },
   {
@@ -241,7 +241,7 @@
     "name": "primaryPronouncement",
     "type": "string",
     "description": "Voice assistant pronunciation text for station name",
-    "fillRate": 32,
+    "fillRate": 31,
     "premium": false
   },
   {
