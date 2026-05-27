@@ -213,7 +213,7 @@
     "name": "socialFacebook",
     "type": "string",
     "description": "Facebook page handle",
-    "fillRate": 47,
+    "fillRate": 48,
     "premium": false
   },
   {
