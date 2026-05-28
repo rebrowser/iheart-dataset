@@ -66,7 +66,7 @@
     "name": "format",
     "type": "string",
     "description": "Station format",
-    "fillRate": 72,
+    "fillRate": 71,
     "premium": false
   },
   {
@@ -80,7 +80,7 @@
     "name": "cume",
     "type": "float",
     "description": "Cumulative weekly audience estimate",
-    "fillRate": 63,
+    "fillRate": 62,
     "premium": true
   },
   {
@@ -199,7 +199,7 @@
     "name": "plsStreamUrl",
     "type": "string",
     "description": "PLS playlist stream URL",
-    "fillRate": 22,
+    "fillRate": 21,
     "premium": true
   },
   {
@@ -234,7 +234,7 @@
     "name": "socialTiktok",
     "type": "string",
     "description": "TikTok handle",
-    "fillRate": 3,
+    "fillRate": 2,
     "premium": false
   },
   {
