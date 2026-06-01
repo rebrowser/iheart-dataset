@@ -1,6 +1,6 @@
 # iHeart Radio Stations & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--05--28-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-227.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/iheart)
+![Updated](https://img.shields.io/badge/updated-2026--06--01-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-227.4M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/iheart)
 
 Thousands of US and Mexico radio station profiles with audience metrics, streaming URLs, and real-time airplay tracking.
 
@@ -81,11 +81,11 @@ iHeart radio stations with call letters, frequencies, formats, market data, audi
 | Value | Count | Share |
 | --- | --- | --- |
 | NEWSTALK | 413 | `████░░░░░░░░░░░░░░░░` 19.4% |
-| OTHER | 298 | `███░░░░░░░░░░░░░░░░░` 14.0% |
+| OTHER | 297 | `███░░░░░░░░░░░░░░░░░` 13.9% |
 | COUNTRY | 295 | `███░░░░░░░░░░░░░░░░░` 13.8% |
 | SPANISH | 217 | `██░░░░░░░░░░░░░░░░░░` 10.2% |
 | CHRPOP | 205 | `██░░░░░░░░░░░░░░░░░░` 9.6% |
-| SPORTS | 176 | `██░░░░░░░░░░░░░░░░░░` 8.2% |
+| SPORTS | 176 | `██░░░░░░░░░░░░░░░░░░` 8.3% |
 | ACMAINSTREAM | 149 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
 | CLASSICHITS | 141 | `█░░░░░░░░░░░░░░░░░░░` 6.6% |
 | ROCKCLASSIC | 125 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
@@ -203,11 +203,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Radio Stations
 
 
-[Radio Stations with Audience Metrics](https://rebrowser.net/products/datasets/iheart/stations/views/radio-stations-with-audience-data) — 3,732 records
+[Radio Stations with Audience Metrics](https://rebrowser.net/products/datasets/iheart/stations/views/radio-stations-with-audience-data) — 3,733 records
 
 ↳ `[{"field":"cume","op":"gt","value":0},{"sort":"cume DESC"}]`
 
-[Oldies Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/oldies-radio-stations) — 244 records
+[Oldies Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/oldies-radio-stations) — 246 records
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"Oldies"},{"sort":"cume DESC"}]`
 
@@ -219,7 +219,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"Country"},{"sort":"cume DESC"}]`
 
-[Sports Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/sports-radio-stations) — 240 records
+[Sports Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/sports-radio-stations) — 238 records
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"Sports"},{"sort":"cume DESC"}]`
 
