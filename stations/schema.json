@@ -234,7 +234,7 @@
     "name": "socialTiktok",
     "type": "string",
     "description": "TikTok handle",
-    "fillRate": 2,
+    "fillRate": 3,
     "premium": false
   },
   {
