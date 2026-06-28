@@ -164,7 +164,7 @@
     "name": "fccFacilityId",
     "type": "string",
     "description": "FCC facility ID for licensed broadcast stations",
-    "fillRate": 26,
+    "fillRate": 25,
     "premium": false
   },
   {
