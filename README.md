@@ -1,11 +1,11 @@
 # iHeart Radio Stations & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--07--03-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-246.8M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/iheart)
+![Updated](https://img.shields.io/badge/updated-2026--07--07-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-246.7M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/iheart)
 
 Thousands of US and Mexico radio station profiles with audience metrics, streaming URLs, and real-time airplay tracking.
 
 
-The [iHeart dataset](https://rebrowser.net/products/datasets/iheart) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (246.8M records, updated daily), visit [rebrowser.net/products/datasets/iheart](https://rebrowser.net/products/datasets/iheart).
+The [iHeart dataset](https://rebrowser.net/products/datasets/iheart) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (246.7M records, updated daily), visit [rebrowser.net/products/datasets/iheart](https://rebrowser.net/products/datasets/iheart).
 
 
 This dataset contains **2** entities, each in its own folder: Radio Stations (`stations`), Station Plays (`station-plays`). See below for a full field breakdown, sample counts, and data distributions for each.
@@ -21,7 +21,7 @@ iHeart radio stations with call letters, frequencies, formats, market data, audi
 
 
 
-> **3,782** total records from 2025-12-28 to 2026-06-21, **3,773** rows in this sample (99.8% of full dataset).
+> **3,782** total records from 2025-12-28 to 2026-06-21, **3,774** rows in this sample (99.8% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](stations/chart-growth.svg)
@@ -163,7 +163,7 @@ Real-time track play log for iHeart stations — every song played with artist, 
 
 
 
-> **246,776,915** total records from 2015-08-30 to 2026-06-28, **up to 600,000** rows in this sample (0.24% of full dataset).
+> **246,736,103** total records from 2015-08-30 to 2026-06-28, **up to 600,000** rows in this sample (0.24% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
 ![Data Growth](station-plays/chart-growth.svg)
@@ -203,7 +203,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Radio Stations
 
 
-[Radio Stations with Audience Metrics](https://rebrowser.net/products/datasets/iheart/stations/views/radio-stations-with-audience-data) — 3,772 records
+[Radio Stations with Audience Metrics](https://rebrowser.net/products/datasets/iheart/stations/views/radio-stations-with-audience-data) — 3,773 records
 
 ↳ `[{"field":"cume","op":"gt","value":0},{"sort":"cume DESC"}]`
 
@@ -215,7 +215,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"News & Talk"},{"sort":"cume DESC"}]`
 
-[Country Music Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/country-radio-stations) — 408 records
+[Country Music Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/country-radio-stations) — 409 records
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"Country"},{"sort":"cume DESC"}]`
 
@@ -231,23 +231,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Station Plays
 
 
-[Recent Radio Track Plays](https://rebrowser.net/products/datasets/iheart/station-plays/views/recent-radio-plays) — 239,144,911 records
+[Recent Radio Track Plays](https://rebrowser.net/products/datasets/iheart/station-plays/views/recent-radio-plays) — 241,324,638 records
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
-[Track Plays with Album Metadata](https://rebrowser.net/products/datasets/iheart/station-plays/views/plays-with-album-metadata) — 84,326,154 records
+[Track Plays with Album Metadata](https://rebrowser.net/products/datasets/iheart/station-plays/views/plays-with-album-metadata) — 86,740,658 records
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
-[Country Radio Airplay Data](https://rebrowser.net/products/datasets/iheart/station-plays/views/country-radio-airplay) — 38,792,156 records
+[Country Radio Airplay Data](https://rebrowser.net/products/datasets/iheart/station-plays/views/country-radio-airplay) — 39,361,214 records
 
 ↳ `[{"field":"stationPrimaryGenreName","op":"is","value":"Country"},{"sort":"playedAt DESC"}]`
 
-[Rock Radio Airplay Data](https://rebrowser.net/products/datasets/iheart/station-plays/views/rock-radio-airplay) — 15,970,829 records
+[Rock Radio Airplay Data](https://rebrowser.net/products/datasets/iheart/station-plays/views/rock-radio-airplay) — 16,138,015 records
 
 ↳ `[{"field":"stationPrimaryGenreName","op":"is","value":"Classic Rock"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Radio Content (5+ Min)](https://rebrowser.net/products/datasets/iheart/station-plays/views/long-form-radio-content) — 8,759,043 records
+[Long-Form Radio Content (5+ Min)](https://rebrowser.net/products/datasets/iheart/station-plays/views/long-form-radio-content) — 9,027,405 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
