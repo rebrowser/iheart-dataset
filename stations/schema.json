@@ -66,7 +66,7 @@
     "name": "format",
     "type": "string",
     "description": "Station format",
-    "fillRate": 71,
+    "fillRate": 70,
     "premium": false
   },
   {
@@ -150,7 +150,7 @@
     "name": "website",
     "type": "string",
     "description": "Station website URL",
-    "fillRate": 63,
+    "fillRate": 62,
     "premium": false
   },
   {
@@ -178,7 +178,7 @@
     "name": "streamingPlatform",
     "type": "string",
     "description": "Streaming platform (revma, triton)",
-    "fillRate": 60,
+    "fillRate": 59,
     "premium": false
   },
   {
@@ -227,14 +227,14 @@
     "name": "socialInstagram",
     "type": "string",
     "description": "Instagram handle",
-    "fillRate": 20,
+    "fillRate": 21,
     "premium": false
   },
   {
     "name": "socialTiktok",
     "type": "string",
     "description": "TikTok handle",
-    "fillRate": 3,
+    "fillRate": 2,
     "premium": false
   },
   {
