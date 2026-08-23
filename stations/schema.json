@@ -241,7 +241,7 @@
     "name": "primaryPronouncement",
     "type": "string",
     "description": "Voice assistant pronunciation text for station name",
-    "fillRate": 31,
+    "fillRate": 33,
     "premium": false
   },
   {
