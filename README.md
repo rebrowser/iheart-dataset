@@ -1,11 +1,11 @@
 # iHeart Radio Stations & Airplay Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--31-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-280.0M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/iheart)
+![Updated](https://img.shields.io/badge/updated-2026--09--01-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-281.6M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/iheart)
 
 Thousands of US and Mexico radio station profiles with audience metrics, streaming URLs, and real-time airplay tracking.
 
 
-The [iHeart dataset](https://rebrowser.net/products/datasets/iheart) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (280.0M records, updated daily), visit [rebrowser.net/products/datasets/iheart](https://rebrowser.net/products/datasets/iheart).
+The [iHeart dataset](https://rebrowser.net/products/datasets/iheart) on Rebrowser is **free** — but GitHub has file size and storage limits, so this repo contains a limited sample. For the full dataset (281.6M records, updated daily), visit [rebrowser.net/products/datasets/iheart](https://rebrowser.net/products/datasets/iheart).
 
 
 This dataset contains **2** entities, each in its own folder: Radio Stations (`stations`), Station Plays (`station-plays`). See below for a full field breakdown, sample counts, and data distributions for each.
@@ -21,7 +21,7 @@ iHeart radio stations with call letters, frequencies, formats, market data, audi
 
 
 
-> **3,840** total records from 2025-12-28 to 2026-08-23, **3,832** rows in this sample (99.8% of full dataset).
+> **3,841** total records from 2025-12-28 to 2026-08-30, **3,833** rows in this sample (99.8% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](stations/chart-growth.svg)
@@ -101,7 +101,7 @@ iHeart radio stations with call letters, frequencies, formats, market data, audi
 | Value | Count | Share |
 | --- | --- | --- |
 | FM | 2,020 | `███████████░░░░░░░░░` 52.6% |
-| FL | 908 | `█████░░░░░░░░░░░░░░░` 23.6% |
+| FL | 909 | `█████░░░░░░░░░░░░░░░` 23.7% |
 | AM | 620 | `███░░░░░░░░░░░░░░░░░` 16.1% |
 | HD2 | 208 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 | HD3 | 67 | `░░░░░░░░░░░░░░░░░░░░` 1.7% |
@@ -119,7 +119,7 @@ iHeart radio stations with call letters, frequencies, formats, market data, audi
 | Value | Count | Share |
 | --- | --- | --- |
 | US Partner Digital | 530 | `████░░░░░░░░░░░░░░░░` 17.6% |
-| News & Talk | 436 | `███░░░░░░░░░░░░░░░░░` 14.5% |
+| News & Talk | 437 | `███░░░░░░░░░░░░░░░░░` 14.5% |
 | Country | 415 | `███░░░░░░░░░░░░░░░░░` 13.8% |
 | Top 40 & Pop | 297 | `██░░░░░░░░░░░░░░░░░░` 9.9% |
 | Oldies | 253 | `██░░░░░░░░░░░░░░░░░░` 8.4% |
@@ -138,11 +138,11 @@ iHeart radio stations with call letters, frequencies, formats, market data, audi
 
 | Value | Count | Share |
 | --- | --- | --- |
-| states/US-NAT | 823 | `███████░░░░░░░░░░░░░` 37.3% |
+| states/US-NAT | 824 | `███████░░░░░░░░░░░░░` 37.4% |
 | CA | 275 | `██░░░░░░░░░░░░░░░░░░` 12.5% |
 | TX | 234 | `██░░░░░░░░░░░░░░░░░░` 10.6% |
 | FL | 211 | `██░░░░░░░░░░░░░░░░░░` 9.6% |
-| OH | 151 | `█░░░░░░░░░░░░░░░░░░░` 6.9% |
+| OH | 151 | `█░░░░░░░░░░░░░░░░░░░` 6.8% |
 | PA | 124 | `█░░░░░░░░░░░░░░░░░░░` 5.6% |
 | NY | 118 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 | GA | 102 | `█░░░░░░░░░░░░░░░░░░░` 4.6% |
@@ -163,7 +163,7 @@ Real-time track play log for iHeart stations — every song played with artist, 
 
 
 
-> **279,984,371** total records from 2015-08-30 to 2026-08-30, **up to 600,000** rows in this sample (0.21% of full dataset).
+> **281,556,942** total records from 2015-08-30 to 2026-08-30, **up to 600,000** rows in this sample (0.21% of full dataset).
 > Exported as one file per day, up to 10,000 rows each, last 60 days retained.
 
 ![Data Growth](station-plays/chart-growth.svg)
@@ -211,7 +211,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"Oldies"},{"sort":"cume DESC"}]`
 
-[News & Talk Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/news-talk-radio-stations) — 435 records
+[News & Talk Radio Stations](https://rebrowser.net/products/datasets/iheart/stations/views/news-talk-radio-stations) — 436 records
 
 ↳ `[{"field":"primaryGenreName","op":"is","value":"News & Talk"},{"sort":"cume DESC"}]`
 
@@ -235,7 +235,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"sort":"playedAt DESC"}]`
 
-[Track Plays with Album Metadata](https://rebrowser.net/products/datasets/iheart/station-plays/views/plays-with-album-metadata) — 116,054,386 records
+[Track Plays with Album Metadata](https://rebrowser.net/products/datasets/iheart/station-plays/views/plays-with-album-metadata) — 117,069,767 records
 
 ↳ `[{"field":"album","op":"isNotEmpty"},{"sort":"playedAt DESC"}]`
 
@@ -243,11 +243,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"stationPrimaryGenreName","op":"is","value":"Country"},{"sort":"playedAt DESC"}]`
 
-[Rock Radio Airplay Data](https://rebrowser.net/products/datasets/iheart/station-plays/views/rock-radio-airplay) — 17,910,344 records
+[Rock Radio Airplay Data](https://rebrowser.net/products/datasets/iheart/station-plays/views/rock-radio-airplay) — 17,969,933 records
 
 ↳ `[{"field":"stationPrimaryGenreName","op":"is","value":"Classic Rock"},{"sort":"playedAt DESC"}]`
 
-[Long-Form Radio Content (5+ Min)](https://rebrowser.net/products/datasets/iheart/station-plays/views/long-form-radio-content) — 11,787,317 records
+[Long-Form Radio Content (5+ Min)](https://rebrowser.net/products/datasets/iheart/station-plays/views/long-form-radio-content) — 11,870,587 records
 
 ↳ `[{"field":"durationSeconds","op":"gt","value":300},{"sort":"playedAt DESC"}]`
 
