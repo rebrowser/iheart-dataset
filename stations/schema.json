@@ -66,7 +66,7 @@
     "name": "format",
     "type": "string",
     "description": "Station format",
-    "fillRate": 69,
+    "fillRate": 68,
     "premium": false
   },
   {
@@ -171,14 +171,14 @@
     "name": "rds",
     "type": "string",
     "description": "RDS (Radio Data System) hex code for FM broadcast",
-    "fillRate": 16,
+    "fillRate": 15,
     "premium": false
   },
   {
     "name": "streamingPlatform",
     "type": "string",
     "description": "Streaming platform (revma, triton)",
-    "fillRate": 59,
+    "fillRate": 58,
     "premium": false
   },
   {
@@ -213,7 +213,7 @@
     "name": "socialFacebook",
     "type": "string",
     "description": "Facebook page handle",
-    "fillRate": 48,
+    "fillRate": 47,
     "premium": false
   },
   {
@@ -241,7 +241,7 @@
     "name": "primaryPronouncement",
     "type": "string",
     "description": "Voice assistant pronunciation text for station name",
-    "fillRate": 33,
+    "fillRate": 32,
     "premium": false
   },
   {
