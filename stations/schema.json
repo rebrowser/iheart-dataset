@@ -80,7 +80,7 @@
     "name": "cume",
     "type": "float",
     "description": "Cumulative weekly audience estimate",
-    "fillRate": 60,
+    "fillRate": 58,
     "premium": true
   },
   {
