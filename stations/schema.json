@@ -66,7 +66,7 @@
     "name": "format",
     "type": "string",
     "description": "Station format",
-    "fillRate": 68,
+    "fillRate": 67,
     "premium": false
   },
   {
@@ -150,7 +150,7 @@
     "name": "website",
     "type": "string",
     "description": "Station website URL",
-    "fillRate": 62,
+    "fillRate": 61,
     "premium": false
   },
   {
@@ -164,7 +164,7 @@
     "name": "fccFacilityId",
     "type": "string",
     "description": "FCC facility ID for licensed broadcast stations",
-    "fillRate": 25,
+    "fillRate": 24,
     "premium": false
   },
   {
@@ -185,7 +185,7 @@
     "name": "hlsStreamUrl",
     "type": "string",
     "description": "Secure HLS stream URL",
-    "fillRate": 52,
+    "fillRate": 51,
     "premium": true
   },
   {
@@ -220,14 +220,14 @@
     "name": "socialTwitter",
     "type": "string",
     "description": "Twitter/X handle",
-    "fillRate": 40,
+    "fillRate": 39,
     "premium": false
   },
   {
     "name": "socialInstagram",
     "type": "string",
     "description": "Instagram handle",
-    "fillRate": 21,
+    "fillRate": 20,
     "premium": false
   },
   {
