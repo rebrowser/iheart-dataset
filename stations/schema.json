@@ -192,7 +192,7 @@
     "name": "shoutcastStreamUrl",
     "type": "string",
     "description": "Secure Shoutcast/AAC stream URL",
-    "fillRate": 90,
+    "fillRate": 91,
     "premium": true
   },
   {
