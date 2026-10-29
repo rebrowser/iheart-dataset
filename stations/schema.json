@@ -164,7 +164,7 @@
     "name": "fccFacilityId",
     "type": "string",
     "description": "FCC facility ID for licensed broadcast stations",
-    "fillRate": 24,
+    "fillRate": 25,
     "premium": false
   },
   {
@@ -178,7 +178,7 @@
     "name": "streamingPlatform",
     "type": "string",
     "description": "Streaming platform (revma, triton)",
-    "fillRate": 58,
+    "fillRate": 57,
     "premium": false
   },
   {
@@ -192,7 +192,7 @@
     "name": "shoutcastStreamUrl",
     "type": "string",
     "description": "Secure Shoutcast/AAC stream URL",
-    "fillRate": 91,
+    "fillRate": 90,
     "premium": true
   },
   {
