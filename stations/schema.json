@@ -59,14 +59,14 @@
     "name": "frequency",
     "type": "string",
     "description": "Broadcast frequency. Null for digital-only stations",
-    "fillRate": 79,
+    "fillRate": 83,
     "premium": false
   },
   {
     "name": "format",
     "type": "string",
     "description": "Station format",
-    "fillRate": 58,
+    "fillRate": 48,
     "premium": false
   },
   {
@@ -80,7 +80,7 @@
     "name": "cume",
     "type": "float",
     "description": "Cumulative weekly audience estimate",
-    "fillRate": 46,
+    "fillRate": 38,
     "premium": true
   },
   {
@@ -150,7 +150,7 @@
     "name": "website",
     "type": "string",
     "description": "Station website URL",
-    "fillRate": 65,
+    "fillRate": 71,
     "premium": false
   },
   {
@@ -164,42 +164,42 @@
     "name": "fccFacilityId",
     "type": "string",
     "description": "FCC facility ID for licensed broadcast stations",
-    "fillRate": 33,
+    "fillRate": 45,
     "premium": false
   },
   {
     "name": "rds",
     "type": "string",
     "description": "RDS (Radio Data System) hex code for FM broadcast",
-    "fillRate": 24,
+    "fillRate": 38,
     "premium": false
   },
   {
     "name": "streamingPlatform",
     "type": "string",
     "description": "Streaming platform (revma, triton)",
-    "fillRate": 50,
+    "fillRate": 41,
     "premium": false
   },
   {
     "name": "hlsStreamUrl",
     "type": "string",
     "description": "Secure HLS stream URL",
-    "fillRate": 46,
+    "fillRate": 38,
     "premium": true
   },
   {
     "name": "shoutcastStreamUrl",
     "type": "string",
     "description": "Secure Shoutcast/AAC stream URL",
-    "fillRate": 91,
+    "fillRate": 92,
     "premium": true
   },
   {
     "name": "plsStreamUrl",
     "type": "string",
     "description": "PLS playlist stream URL",
-    "fillRate": 17,
+    "fillRate": 14,
     "premium": true
   },
   {
@@ -213,21 +213,21 @@
     "name": "socialFacebook",
     "type": "string",
     "description": "Facebook page handle",
-    "fillRate": 41,
+    "fillRate": 34,
     "premium": false
   },
   {
     "name": "socialTwitter",
     "type": "string",
     "description": "Twitter/X handle",
-    "fillRate": 34,
+    "fillRate": 28,
     "premium": false
   },
   {
     "name": "socialInstagram",
     "type": "string",
     "description": "Instagram handle",
-    "fillRate": 18,
+    "fillRate": 15,
     "premium": false
   },
   {
@@ -241,7 +241,7 @@
     "name": "primaryPronouncement",
     "type": "string",
     "description": "Voice assistant pronunciation text for station name",
-    "fillRate": 28,
+    "fillRate": 23,
     "premium": false
   },
   {
